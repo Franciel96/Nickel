@@ -1,9 +1,9 @@
 const nome="Franciel";
 let nome2= "";
 let pessoaDeafault = {
-    nome: "Gira",
+    nome: "Girafales",
     idade: "24",
-    trabalho: "docinho do time"
+    trabalho: "professor"
 }
 
 
@@ -12,7 +12,7 @@ let pessoas = [
     {
         nome: "Januário",
         idade: "24",
-        trabalho: "docinho do time"
+        trabalho: "contador"
     },
     {
         nome: "Josiane",
@@ -22,7 +22,7 @@ let pessoas = [
     {
         nome: "Jorlene",
         idade: "30",
-        trabalho: "cachaceira"
+        trabalho: "contadora"
     }
 ];
 //console.log("valor inicial:"); console.log(nome2); nome2 = "Nome que coloquei após o teste"; console.log("valor alterado:"); console.log(nome2);
@@ -76,7 +76,7 @@ imprimirPessoas();
 
 
 adicionarPessoa({
-    nome: "Giorgio",
+    nome: "Giovani",
     idade: "26",
     trabalho: "modelo"
 });
@@ -88,10 +88,3 @@ console.log(pessoas);
 //imprimirPessoa(pessoaDeafault);
 
 //imprimirPessoa({nome: "Josiane", idade: "37", trabalho: "recepcionista"});
-
-
-
-
-//alterarNome();
-//recebeEalteraNome("Nome alterado pela função, beijos");
-//recebeEalteraNome("Nome alterado pela função, novamente garai");
